@@ -68,7 +68,7 @@ server <- function(input, output, session) {
   output$grafica <- renderPlot({
     
     ggplot(mtcars, aes(x = disp ,y = hp ))+
-      ?geom_line(colour = "blue")
+      ?geom_line(colour = "white")
     
   })
   
